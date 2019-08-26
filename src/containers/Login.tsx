@@ -50,7 +50,7 @@ export const Login = () => {
           type="email"
           name="email"
           value={userEmail}
-          placeholder="john@mail.com"
+          placeholder="Enter your email..."
           onChange={e => setUserEmail(e.target.value)}
         />
       </FormGroup>
