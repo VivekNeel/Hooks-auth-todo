@@ -3,9 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "react-scripts": "3.1.1",
+    "reactstrap": "^8.0.1",
+    "styled-components": "^4.3.2",
+    "uuid": "^3.3.3",
+    "validator": "^11.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,5 +32,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "@types/reactstrap": "^8.0.4",
+    "@types/styled-components": "^4.1.18",
+    "@types/uuid": "^3.4.5",
+    "@types/validator": "^10.11.3",
+    "typescript": "^3.5.3"
   }
 }
